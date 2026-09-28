@@ -1,0 +1,19 @@
+# Временные папки сборки и кэша UE (весят десятки гигабайт, генерируются заново)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Файлы Visual Studio (решение всегда пересоздается по клику на .uproject)
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.opendb
+*.VC.db
+
+# Вспомогательные кэши движка
+.idea/
+.vscode/
+FileOpenOrder/
